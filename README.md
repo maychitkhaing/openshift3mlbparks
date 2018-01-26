@@ -8,7 +8,7 @@ This sample application will create and deploy a JBoss EAP application server as
 ````
 $ oc login https://yourOpenShiftServer
 $ oc new-project mlbparks
-$ oc create -f https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template.json
+$ oc create -f https://raw.githubusercontent.com/maychitkhaing/openshift3mlbparks/master/mlbparks-template-eap.json
 $ oc new-app mlbparks
 ````
 Once the application is deployed and running, you can also scale the number of EAP pods to 3 with the following commands:
